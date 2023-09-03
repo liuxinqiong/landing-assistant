@@ -1,4 +1,7 @@
 {
   "extends": ["eslint-config-egg", "prettier"], // prettier should placed in the last
+  "rules": {
+    "no-unused-vars": "warn",
+  },
   "root": true
 }
